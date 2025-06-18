@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nandana - Portfolio</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav class="navbar">
+      <div class="nav-content">
+        <h1>Portfolio</h1>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-left">      <div class="hero-heading">
+        <span class="hi-text">Hi, I'm</span>
+        <h1>Nandana</h1>
+        <div class="typewriter">
+          <span class="typed-text"></span>
+          <span class="cursor">|</span>
+        </div>
+      </div><p class="hero-description">High-level experience in web design and development, producing quality work.</p>
+      <div class="hero-buttons">
+        <button class="contact-btn">Contact Me <i class="fas fa-arrow-right"></i></button>
+        <a href="resume.pdf" download class="resume-btn">
+          <i class="fas fa-download"></i> Download Resume
+        </a>
+      </div>
+    </div>
+    <div class="hero-right">      
+      <div class="profile-circle">
+        <img src="your-profile-photo1.png" alt="Nandana">
+      </div>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/nandana-pramod-828639254/" target="_blank" class="social-icon">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/nandanaap" target="_blank" class="social-icon">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="mailto:nandanapramodak@gmail.com" class="social-icon">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Bar -->
+ <header>
+    <nav class="navbar">
+      <div class="nav-content">
+        <h1>Nandana</h1>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="about">
+    <h2>Career Objective</h2>
+    <p>
+      Aspiring front-end developer with a strong foundation in responsive design and modern JavaScript frameworks.
+      Passionate about building user-centric web applications that drive engagement and deliver measurable business value.
+      Eager to contribute to innovative teams where I can grow technically.
+    </p>
+  </section>
+
+  <!-- Experience & Education -->
+  <section id="experience" class="experience">
+    <h2>Work Experience</h2>
+    <article class="exp-card">
+      <h3>SDE Intern</h3>
+      <p class="company">Bluestock Fintech, Remote</p>
+      <p class="duration">Dec 2024 – Jan 2025</p>
+      <ul>
+        <li>Enhanced UI for Invest.io, improving UX satisfaction by 25%.</li>
+        <li>Collaborated cross-functionally, scaling to 40% more users.</li>
+        <li>Used React.js, Next.js, Tailwind CSS to reduce load time by 30%.</li>
+      </ul>
+    </article>
+
+    <h2>Education</h2>
+    <article class="edu-card">
+      <h3>B.Tech in Computer Science</h3>
+      <p>Bharati Vidyapeeth (Deemed To Be University), Pune</p>
+      <p class="duration">2022 – 2026</p>
+      <p><strong>CGPA:</strong> 9.24/10</p>
+    </article>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Face Recognition System</h3>
+        <p class="tech">Python, OpenCV</p>
+        <p class="duration">Oct – Nov 2024</p>
+        <p>Real-time system using Haar Cascade & LBPH algorithm for face recognition.</p>
+      </div>
+      <div class="project-card">
+        <h3>Room Booking Model</h3>
+        <p class="tech">C++, OOP</p>
+        <p class="duration">Jun – Jul 2024</p>
+        <p>Console-based system to manage room bookings efficiently in shared spaces.</p>
+      </div>
+      <div class="project-card">
+        <h3>Real-Time Chat App</h3>
+        <p class="tech">Socket.IO, Node.js</p>
+        <p class="duration">Apr 2025 – Present</p>
+        <p>Live messaging web app built using Socket.IO and Express backend.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <span class="skill-tag">JavaScript</span>
+      <span class="skill-tag">React</span>
+      <span class="skill-tag">Node.js</span>
+      <span class="skill-tag">Tailwind CSS</span>
+      <span class="skill-tag">Socket.IO</span>
+      <span class="skill-tag">HTML/CSS</span>
+      <span class="skill-tag">Git</span>
+      <span class="skill-tag">Python</span>
+      <span class="skill-tag">C++</span>
+      <span class="skill-tag">Java</span>
+      <span class="skill-tag">Web Development</span>
+    </div>
+  </section>
+
+  <!-- Activities & Achievements -->
+  <section class="activities">
+    <h2>Extra-Curricular Activities</h2>
+    <ul>
+      <li>Head of Public Relations – Financity</li>
+      <li>Head of Creativity – CSBS Department</li>
+      <li>Completed A1 German Language Exam</li>
+    </ul>
+
+    <h2>Achievements</h2>
+    <p>
+      Selected among 60 Indian students for the DHRUV Pradhan Mantri Innovative Learning Programme,
+      presented project at IIT Delhi.
+    </p>
+  </section>
+
+  <!-- Personal Section -->
+  <section id="personal" class="personal">
+    <div class="avatar-container">
+      <div id="avatar-3d"></div>
+      <lottie-player
+        src="https://assets2.lottiefiles.com/packages/lf20_kkflmtur.json"
+        background="transparent"
+        speed="1"
+        style="width: 300px; height: 300px;"
+        loop
+        autoplay
+      ></lottie-player>
+    </div>
+
+    <div class="mood-container">
+      <h3>Today's Mood</h3>
+      <div id="mood-text">🎯 Focused & Creative</div>
+      <div id="daily-quote">“Code is like humor. When you have to explain it, it’s bad.”</div>
+    </div>
+
+    <div class="behind-code">
+      <h3>Behind the Code</h3>
+      <div class="process-gallery">
+        <div class="process-item">
+          <img src="https://placekitten.com/300/200" alt="Initial version preview" />
+          <p>First iteration of the portfolio 😅</p>
+        </div>
+        <div class="process-item">
+          <img src="https://placekitten.com/301/200" alt="Bug fixing" />
+          <p>When the CSS wasn’t cooperating 🤪</p>
+        </div>
+        <div class="process-item">
+          <img src="https://placekitten.com/302/200" alt="Final design" />
+          <p>Finally got it working! 🎉</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Timeline Dots -->
+  <div class="timeline">
+    <div class="timeline-dot" data-section="home"></div>
+    <div class="timeline-dot" data-section="about"></div>
+    <div class="timeline-dot" data-section="experience"></div>
+    <div class="timeline-dot" data-section="projects"></div>
+    <div class="timeline-dot" data-section="skills"></div>
+  </div>
+
+  <!-- Theme Toggle -->
+  <button class="theme-toggle" aria-label="Toggle dark mode">
+    <i class="fas fa-moon"></i>
+  </button>
+
+  <!-- Footer -->
+  <footer>
+    <p></p>
+  </footer>
+</body>
+</html>
