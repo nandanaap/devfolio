@@ -137,6 +137,19 @@ document.querySelector('.contact-btn').addEventListener('click', function() {
 });
 
 // Initialize everything
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', function() {
+    const scrollRightBtn = document.querySelector('.scroll-right-btn');
+    const scrollLeftBtn = document.querySelector('.scroll-left-btn');
+    const projectGrid = document.querySelector('.project-grid');
+    if (scrollRightBtn && projectGrid) {
+        scrollRightBtn.addEventListener('click', function() {
+            projectGrid.scrollBy({ left: 350, behavior: 'smooth' });
+        });
+    }
+    if (scrollLeftBtn && projectGrid) {
+        scrollLeftBtn.addEventListener('click', function() {
+            projectGrid.scrollBy({ left: -350, behavior: 'smooth' });
+        });
+    }
     // Setup initial state
 });
